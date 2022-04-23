@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+h1{
+    overflow: hidden;
+}
+nav{
+    overflow: hidden;
+}
+span{
+    overflow: hidden;
+}
+.nav-background-color{
+    background-color: #131316 !important;
+    color: white;
+}
+.nav-color{
+    color: #2c4964;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #2c4964 !important;
+}
+
+.navbar-background{
+    background-color: #ffffff;
+}
+.btn-primary{
+    background-color: #FFFFFF !important;
+    color: #131316 !important;
+    font-size: 14px !important;
+    width: 159px !important;
+    height: 46px !important;
+    
+    border: none !important;
+} 
+.btn-primary:focus{
+    outline: none !important;
+}
+
+ .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: black !important;
+    background-color: white;
+    border-radius: 2px;
+}
+.nav-item .nav-link{
+    color: white !important;
+}
+.section-1-bg{
+    background-color: black !important;
+}
+.sign-up-btn{
+    background-color: #4AE290;
+    width: 115px;
+    height: 42px;
+    text-align: center;
+    border-radius: 1px;
+    margin-left: 24px;
+}
+.sign-up-btn:hover{
+    background-color: #4AE290 !important;
+    color: white !important ;
+}
+.offcanvas{
+    background-color: black !important;
+}
+.offcanvas button{
+    color: white !important;
+}
+
+/*--------------------------
+ top banner section
+-------------------------- */
+
+#top-bg-image{
+    background: url(../images/Hero\ Image.png) top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 100vh;
+    background-color: black !important;
+}
+
+.banner-info h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner-info p{
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+.text-color{
+    color: #4AE290;
+}
+.gym-color{
+   color:  #FFFFFF;
+   font-size: 24px;
+}
+.me-color{
+    color: #4AE290;
+    font-size: 15px;
+}
+
+
+
+/* mission section start here */
+.mission{
+    width: 50%;
+    margin: auto;
+}
+.mission-bg{
+    background-image: url(../images/Vector.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+}
+.mission-bg h1{
+    font-size: 50px;
+}
+.mission p{
+    width:90%;
+}
+.mission button{
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.button{
+    background-color: black;
+}
+
+
+.training-bg{
+    background-image: url(../images/calender.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    margin: auto;
+}
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.top-left{
+    top: -39px;
+    left: 13px;
+    right: 0;
+    bottom: 0;
+
+}
+.every-img img{
+    width: 100% !important;
+    height: 200px;
+}
+.every-img p{
+    background-color: #FFFFFF;
+    color: black;
+    width: 30%;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 1px;
+}
+.card{
+    border: 0 !important;
+}
